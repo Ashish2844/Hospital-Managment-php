@@ -1,0 +1,420 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.whole{
+  width:100vw;
+  height: 100vh;
+  background-color: rgb(243, 243, 243);
+  display: grid;
+  place-items: center;
+}
+
+.box{
+  width:500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+  color:rgb(138, 138, 138);
+}
+
+.box .a{
+  font-size:25px;
+}
+
+.box .b{
+  font-size:15px;
+}
+
+.box input{
+  width:300px;
+  height: 40px;
+  border-radius: 3px;
+  border:2px solid rgb(138, 138, 138);
+  font-size: 20px;
+}
+
+.box input:nth-child(6){
+    width:100px;
+    height: 35px;
+    color:white;
+    background-color:rgb(3, 152, 238);
+}
+
+.box .d a{
+  color:rgb(3, 152, 238);
+}
+
+.box .e a{
+  color: rgb(3, 152, 238);
+}
+
+.form_login{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: center;
+}
+
+/* signup */
+
+.signup_box{
+  width:400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  justify-content:space-evenly;
+  color:rgb(138, 138, 138);
+}
+
+.signup_box form{
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  justify-content:space-evenly;
+  height: 450px;
+}
+
+.signup_box .a{
+  font-size:25px;
+}
+
+.signup_box input{
+  width:300px;
+  height: 30px;
+  font-size:17px;
+}
+
+.signup_box .c input{
+  width:15px;
+  height: 15px;
+}
+
+.signup_box .c label{
+  font-size:20px;
+}
+
+.signup_box form input:nth-child(9){
+  width:100px;
+  height: 35px;
+  background-color: rgb(3, 152, 238);
+  color:white;
+  border-radius: 3px;
+}
+
+.signup_box .d a{
+  color: rgb(3, 152, 238);
+}
+
+.sidebar{
+  color:rgb(113, 138, 156);
+  width:20%;
+  height: 70rem;
+  float:left;
+  background-color:rgb(42, 63, 84);
+}
+
+.side_menu{
+  height: 150vh;
+  margin-top:50px;
+  font-size: 20px;
+}
+
+.side_menu ul li button{
+  background:transparent;
+  color:rgb(207, 225, 240);
+  border:transparent;
+  width:95%;
+  text-align: left;
+}
+
+.side_menu ul li{
+  margin-top:15px;
+}
+
+.side_menu span{
+  color:rgb(207, 225, 240);
+  margin-left:30px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.side_menu a{
+  text-decoration: none;
+  color:rgb(207, 225, 240);
+  font-size:20px;
+}
+
+.side_menu a i{
+  color:rgb(113, 138, 156);
+  margin-top:20px;
+  font-size:20px;
+}
+
+.menu_live{
+  height: 200px;
+  color:rgb(207, 225, 240);
+}
+
+.menu_live ul li{
+  margin-top:20px;
+  color:rgb(113, 138, 156);
+}
+
+.menu_live span{
+  color:rgb(207, 225, 240);
+  margin-left:30px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.menu_live a{
+  text-decoration: none;
+  color:rgb(207, 225, 240);
+  font-size:20px;
+}
+
+.menu_live a i{
+  color:rgb(113, 138, 156);
+  margin-top:20px;
+  font-size:15px;
+}
+
+.menu_live form{
+  color:rgb(113, 138, 156);
+  font-size: 20px;
+}
+
+.menu_live input{
+  background-color: transparent;
+  border: transparent;
+  color:rgb(207, 225, 240);
+}
+
+.head{
+  color:white;
+  font-size: 40px;
+  margin-left:30px;
+}
+
+.navb{
+  width:80%;
+  height:60rem;
+  float: left;
+}
+
+.bar{
+ 
+}
+
+.data1{
+  width:100%;
+  height: 600px;
+  display: inline-block;
+  color:rgb(113, 138, 156);
+}
+
+.data1 .accordion-item{
+  width:250px;
+  height: 300px;
+  float: left;
+  margin-left:50px;
+  margin-top:50px;
+  text-align: center;
+  text-decoration: none;
+  border: transparent;
+  font-size: 20px;
+}
+
+.spclz{
+  height: 700px;
+  width:85%;
+}
+
+.spclz label{
+  font-weight: bold;
+  color:rgb(113, 138, 156);
+  font-size:20px;
+  margin-top:40px;
+}
+
+
+.spclz button{
+  width:130px;
+  height: 50px;
+  margin-top:20px;
+}
+
+/* admin_dashbaord */
+.numbs{
+  margin-top:30px;
+  width:90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbs span{
+  display: flex;
+  margin-left:20px;
+}
+
+.count{
+  border-left: 3px solid rgb(113, 138, 156);
+  text-align: center;
+  width:300px;
+  color:rgb(113, 138, 156);
+}
+
+.doc_spclz{
+  margin-top:40px;
+}
+
+.add_doctor{
+  width:100%;
+  height: 800px;
+}
+
+.add_doctor label{
+  margin-top:20px;
+  font-weight: bold;
+}
+
+.add_doctor input{
+  color:rgb(113, 138, 156);
+}
+
+.add_doctor input:nth-child(19){
+  color:white;
+  margin-top:15px;
+}
+
+.chng label{
+  color: rgb(113, 138, 156);
+}
+
+/* user_chng_password */
+
+.chng form{
+  width:100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.chng form label{
+  font-size:20px;
+}
+
+.chng form input:nth-child(7){
+  width:100px;
+}
+
+/* user_apoint_hist */
+
+.hist{
+  margin-top:40px;
+}
+
+#doc_content{
+  display: none;
+}
+
+#user_content{
+  display: none;
+}
+
+#pat_content{
+  display:none;
+}
+
+#list{
+  display:none;
+}
+
+.data_table{
+  width:100%;
+}
+
+.data_table th{
+  border-bottom:2px solid black;
+  text-align: center;
+  font-size:17px;
+}
+
+.data_table td{
+  text-align: center;
+  padding:10px 10px;
+  color:rgb(113, 138, 156);
+}
+
+.data_table td button{
+  background-color: white;
+  border: white;
+}
+
+.add_pat{
+  width:90%;
+  height:800px;
+  margin-left: 30px;
+  color:rgb(113, 138, 156);
+}
+
+.add_pat form label{
+ margin-top:20px;
+}
+
+.doc_update{
+  width:100%;
+  height: 700px;
+}
+
+.doc_update label{
+  font-weight: bold;
+  margin-top:20px;
+}
+
+.doc_update input{
+  color:rgb(113, 138, 156);
+}
+
+.doc_update input:nth-child(14){
+  color:white;
+  margin-top:15px;
+  width:80px;
+  height: 30px;
+}
+
+.edp label{
+ font-weight: bold;
+ margin-top:20px;
+}
+
+.user_update{
+  width:100%;
+  height: 700px;
+}
+
+.user_update label{
+  font-weight: bold;
+  margin-top:20px;
+}
+
+.user_update input{
+  color:rgb(113, 138, 156);
+}
+
+.user_update input:nth-child(16){
+  color:white;
+  margin-top:25px;
+  width:80px;
+  height: 30px;
+  text-align: center;
+}
